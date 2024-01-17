@@ -21,7 +21,7 @@ The speeches, available in full length, are provided in TXT (text) file format.
   - Natural Language Processing (NLP) and Python is used for Tokenization (splitting text into words/sentences).  
 ## Annotations Added and Tools
 | Annnotations | Tools |
-|______________________|
+|_____________ | ______|
 |Lemmas | spaCy, Python | 
 | Part-of-Speech (POS) Tagging | spaCy, Python |
 | Proper Nouns | spaCy, Python |
@@ -32,7 +32,7 @@ The speeches, available in full length, are provided in TXT (text) file format.
 - Trump_speeches_with_spaCy_tags : CSV File. This file is derived from the TXT files and has been enhanced using spaCy for additional linguistic analysis.
 ## Columns in the CSV File
 | Column | Description |
-| _______________________|
+| ______ | ________________|
 | Filename |  The file name in the 'archive' folder |
 | Document | The original text exactly as it appears in the text file |
 | Text | Preprocessed text of this document |
