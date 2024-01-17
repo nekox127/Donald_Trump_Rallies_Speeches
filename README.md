@@ -38,7 +38,7 @@ The speeches, available in full length, are provided in TXT (text) file format.
 | Filename         | The file name of this txt file in the folder             |
 | Document         | The original text exactly as it appears in the text file|
 | Text             | Preprocessed text of this document                       |
-| Tokens           | Splitting text into pieces called tokens                 |
+| Tokens           | Text spitted into pieces by NLP                          |
 | Lemmas           | Lemma is the form of a word as it appears in the dictionary|
 | Parts-of-speech  | Part of speech, is a category of words with similar grammatical properties|
 | Proper_Nouns     | The name of a particular person, place, organization, or thing in the files| 
