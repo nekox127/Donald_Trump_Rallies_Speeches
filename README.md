@@ -35,7 +35,7 @@ The speeches, available in full length, are provided in TXT (text) file format.
 ## Columns in the CSV File
 | Column           | Description                                              |
 |------------------|----------------------------------------------------------|
-| Filename         | The file name in the 'archive' folder                    |
+| Filename         | The file name of this txt file in the folder             |
 | Document         | The original text exactly as it appears in the text file|
 | Text             | Preprocessed text of this document                       |
 | Tokens           | Splitting text into pieces called tokens                 |
