@@ -28,7 +28,7 @@ The speeches, available in full length, are provided in TXT (text) file format.
 | Named Entity Recognition     | spaCy, Python   |
 | Sentiment Classification     | spaCy, Python   |
 
-## Files in the Corpus
+## Files in this repository
 - `txt` Each speech is stored in a separate TXT file, presenting the complete speech. The filename includes the date and location where the speech was delivered.
 - `csv` This file is derived from the TXT files and has been enhanced using spaCy for additional linguistic analysis.
 - `ipynb` This file contains the code of cleaning/preprocessing and processing of the TXT files and finally generating a CSV file.
