@@ -29,8 +29,9 @@ The speeches, available in full length, are provided in TXT (text) file format.
 | Sentiment Classification     | spaCy, Python   |
 
 ## Files in the Corpus
-- Trump_rallies_speeches : Folder of TXT files. Each speech is stored in a separate TXT file, presenting the complete speech. The filename includes the date and location where the speech was delivered.
-- Trump_speeches_with_spaCy_tags : CSV File. This file is derived from the TXT files and has been enhanced using spaCy for additional linguistic analysis.
+- `txt` Each speech is stored in a separate TXT file, presenting the complete speech. The filename includes the date and location where the speech was delivered.
+- `csv` This file is derived from the TXT files and has been enhanced using spaCy for additional linguistic analysis.
+- `ipynb` This file contains the code of cleaning/preprocessing and processing of the TXT files and finally generating a CSV file.
 ## Columns in the CSV File
 | Column           | Description                                              |
 |------------------|----------------------------------------------------------|
