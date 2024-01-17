@@ -20,28 +20,30 @@ The speeches, available in full length, are provided in TXT (text) file format.
 - Preprocessing:
   - Natural Language Processing (NLP) and Python is used for Tokenization (splitting text into words/sentences).  
 ## Annotations Added and Tools
-| Annnotations | Tools |
-|_____________ | ______|
-|Lemmas | spaCy, Python | 
-| Part-of-Speech (POS) Tagging | spaCy, Python |
-| Proper Nouns | spaCy, Python |
-| Named Entity Recognition | spaCy, Python |
-| Sentiment Classification | spaCy, Python |
+| Annnotations                 | Tools           |
+|------------------------------|-----------------|
+| Lemmas                       | spaCy, Python   |
+| Part-of-Speech (POS) Tagging | spaCy, Python   |
+| Proper Nouns                 | spaCy, Python   |
+| Named Entity Recognition     | spaCy, Python   |
+| Sentiment Classification     | spaCy, Python   |
+
 ## Files in the Corpus
 - Trump_rallies_speeches : Folder of TXT files. Each speech is stored in a separate TXT file, presenting the complete speech. The filename includes the date and location where the speech was delivered.
 - Trump_speeches_with_spaCy_tags : CSV File. This file is derived from the TXT files and has been enhanced using spaCy for additional linguistic analysis.
 ## Columns in the CSV File
-| Column | Description |
-| ______ | ________________|
-| Filename |  The file name in the 'archive' folder |
-| Document | The original text exactly as it appears in the text file |
-| Text | Preprocessed text of this document |
-| Tokens | Splitting text into pieces called tokens |
-| Lemmas | Lemma is the form of a word as it appears in the dictionary |
-| Parts-of-speech | Part of speech, is a category of words with similar grammatical properties |
-| Proper_Nouns | The name of a particular person, place, organization, or thing in the files | 
-| Named_Entities | Named entity labels, providing information about the type of each named entity |
-| NE_Words | Real-world entities (location, person, time) mentioned in the text |
+| Column           | Description                                              |
+|------------------|----------------------------------------------------------|
+| Filename         | The file name in the 'archive' folder                    |
+| Document         | The original text exactly as it appears in the text file|
+| Text             | Preprocessed text of this document                       |
+| Tokens           | Splitting text into pieces called tokens                 |
+| Lemmas           | Lemma is the form of a word as it appears in the dictionary|
+| Parts-of-speech  | Part of speech, is a category of words with similar grammatical properties|
+| Proper_Nouns     | The name of a particular person, place, organization, or thing in the files| 
+| Named_Entities   | Named entity labels, providing information about the type of each named entity|
+| NE_Words         | Real-world entities (location, person, time) mentioned in the text|
+
 ## Quality Check
 - I reviewed each TXT file to identify and rectify any typos.
 - I verified the successful import of the resulting CSV file and ensured its integrity.
